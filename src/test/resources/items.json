@@ -1,0 +1,202 @@
+{
+  "items": [
+    {
+      "name": "Item 0",
+      "link": {
+        "href": "http://localhost:8080/items/0",
+        "rel": "self"
+      },
+      "links": {
+        "link": [
+          {
+            "href": "http://localhost:8080/items/1",
+            "rel": "next"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Item 1",
+      "link": {
+        "href": "http://localhost:8080/items/1",
+        "rel": "self"
+      },
+      "links": {
+        "link": [
+          {
+            "href": "http://localhost:8080/items/2",
+            "rel": "next"
+          },
+          {
+            "href": "http://localhost:8080/items/0",
+            "rel": "prev"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Item 2",
+      "link": {
+        "href": "http://localhost:8080/items/2",
+        "rel": "self"
+      },
+      "links": {
+        "link": [
+          {
+            "href": "http://localhost:8080/items/3",
+            "rel": "next"
+          },
+          {
+            "href": "http://localhost:8080/items/1",
+            "rel": "prev"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Item 3",
+      "link": {
+        "href": "http://localhost:8080/items/3",
+        "rel": "self"
+      },
+      "links": {
+        "link": [
+          {
+            "href": "http://localhost:8080/items/4",
+            "rel": "next"
+          },
+          {
+            "href": "http://localhost:8080/items/2",
+            "rel": "prev"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Item 4",
+      "link": {
+        "href": "http://localhost:8080/items/4",
+        "rel": "self"
+      },
+      "links": {
+        "link": [
+          {
+            "href": "http://localhost:8080/items/5",
+            "rel": "next"
+          },
+          {
+            "href": "http://localhost:8080/items/3",
+            "rel": "prev"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Item 5",
+      "link": {
+        "href": "http://localhost:8080/items/5",
+        "rel": "self"
+      },
+      "links": {
+        "link": [
+          {
+            "href": "http://localhost:8080/items/6",
+            "rel": "next"
+          },
+          {
+            "href": "http://localhost:8080/items/4",
+            "rel": "prev"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Item 6",
+      "link": {
+        "href": "http://localhost:8080/items/6",
+        "rel": "self"
+      },
+      "links": {
+        "link": [
+          {
+            "href": "http://localhost:8080/items/7",
+            "rel": "next"
+          },
+          {
+            "href": "http://localhost:8080/items/5",
+            "rel": "prev"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Item 7",
+      "link": {
+        "href": "http://localhost:8080/items/7",
+        "rel": "self"
+      },
+      "links": {
+        "link": [
+          {
+            "href": "http://localhost:8080/items/8",
+            "rel": "next"
+          },
+          {
+            "href": "http://localhost:8080/items/6",
+            "rel": "prev"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Item 8",
+      "link": {
+        "href": "http://localhost:8080/items/8",
+        "rel": "self"
+      },
+      "links": {
+        "link": [
+          {
+            "href": "http://localhost:8080/items/9",
+            "rel": "next"
+          },
+          {
+            "href": "http://localhost:8080/items/7",
+            "rel": "prev"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Item 9",
+      "link": {
+        "href": "http://localhost:8080/items/9",
+        "rel": "self"
+      },
+      "links": {
+        "link": [
+          {
+            "href": "http://localhost:8080/items/10",
+            "rel": "next"
+          },
+          {
+            "href": "http://localhost:8080/items/8",
+            "rel": "prev"
+          }
+        ]
+      }
+    }
+  ],
+  "link": {
+    "href": "http://localhost:8080/items?offset=0&limit=10",
+    "rel": "self"
+  },
+  "links": {
+    "link": [
+      {
+        "href": "http://localhost:8080/items?offset=10&limit=10",
+        "rel": "next"
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+    <items>
+        <name>Item 0</name>
+        <link href="http://localhost:8080/items/0" rel="self"/>
+        <links>
+            <link href="http://localhost:8080/items/1" rel="next"/>
+        </links>
+    </items>
+    <items>
+        <name>Item 1</name>
+        <link href="http://localhost:8080/items/1" rel="self"/>
+        <links>
+            <link href="http://localhost:8080/items/2" rel="next"/>
+            <link href="http://localhost:8080/items/0" rel="prev"/>
+        </links>
+    </items>
+    <items>
+        <name>Item 2</name>
+        <link href="http://localhost:8080/items/2" rel="self"/>
+        <links>
+            <link href="http://localhost:8080/items/3" rel="next"/>
+            <link href="http://localhost:8080/items/1" rel="prev"/>
+        </links>
+    </items>
+    <items>
+        <name>Item 3</name>
+        <link href="http://localhost:8080/items/3" rel="self"/>
+        <links>
+            <link href="http://localhost:8080/items/4" rel="next"/>
+            <link href="http://localhost:8080/items/2" rel="prev"/>
+        </links>
+    </items>
+    <items>
+        <name>Item 4</name>
+        <link href="http://localhost:8080/items/4" rel="self"/>
+        <links>
+            <link href="http://localhost:8080/items/5" rel="next"/>
+            <link href="http://localhost:8080/items/3" rel="prev"/>
+        </links>
+    </items>
+    <items>
+        <name>Item 5</name>
+        <link href="http://localhost:8080/items/5" rel="self"/>
+        <links>
+            <link href="http://localhost:8080/items/6" rel="next"/>
+            <link href="http://localhost:8080/items/4" rel="prev"/>
+        </links>
+    </items>
+    <items>
+        <name>Item 6</name>
+        <link href="http://localhost:8080/items/6" rel="self"/>
+        <links>
+            <link href="http://localhost:8080/items/7" rel="next"/>
+            <link href="http://localhost:8080/items/5" rel="prev"/>
+        </links>
+    </items>
+    <items>
+        <name>Item 7</name>
+        <link href="http://localhost:8080/items/7" rel="self"/>
+        <links>
+            <link href="http://localhost:8080/items/8" rel="next"/>
+            <link href="http://localhost:8080/items/6" rel="prev"/>
+        </links>
+    </items>
+    <items>
+        <name>Item 8</name>
+        <link href="http://localhost:8080/items/8" rel="self"/>
+        <links>
+            <link href="http://localhost:8080/items/9" rel="next"/>
+            <link href="http://localhost:8080/items/7" rel="prev"/>
+        </links>
+    </items>
+    <items>
+        <name>Item 9</name>
+        <link href="http://localhost:8080/items/9" rel="self"/>
+        <links>
+            <link href="http://localhost:8080/items/10" rel="next"/>
+            <link href="http://localhost:8080/items/8" rel="prev"/>
+        </links>
+    </items>
+    <link href="http://localhost:8080/items?offset=0&amp;limit=10" rel="self"/>
+    <links>
+        <link href="http://localhost:8080/items?offset=10&amp;limit=10" rel="next"/>
+    </links>
+</items>

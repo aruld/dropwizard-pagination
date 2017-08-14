@@ -7,7 +7,7 @@ Supports content negotiation using Accept headers. Uses Eclipse MOXy to support 
 [HTTP Link headers](http://tools.ietf.org/html/rfc5988#section-5) are added to responses using annotations.
 
 
-![Alt text](/relative/path/to/screenshot.png?raw=true "Pagination")
+![Screenshot](src/main/resources/screenshot.png?raw=true "Pagination")
 
 How to start the Pagination application
 ---

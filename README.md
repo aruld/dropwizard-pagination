@@ -2,9 +2,11 @@
 
 Implemented DropWizard Pagination using [Jersey Declarative Hyperlinking](https://jersey.github.io/documentation/latest/declarative-linking.html).
 
-Supports content negotiation using Accept headers. Uses Eclipse MOXy to support JAXB/JSON binding. 
+Supports content negotiation using Accept headers. Uses [Eclipse MOXy](http://www.eclipse.org/eclipselink/#moxy) to support JAXB/JSON binding. 
 
 [HTTP Link headers](http://tools.ietf.org/html/rfc5988#section-5) are added to responses using annotations.
+
+Freemarker templates are used to render the view.
 
 
 ![Screenshot](src/main/resources/screenshot.png?raw=true "Pagination")
@@ -27,3 +29,9 @@ Health Check
 To see your applications health enter url `http://localhost:8081/healthcheck`
 
 
+References
+---
+1. http://kingsfleet.blogspot.com/2014/05/declarative-linking-in-jersey-29.html
+1. http://kingsfleet.blogspot.com/2014/05/reading-and-writing-jax-rs-link-objects.html
+1. https://github.com/jersey/jersey/tree/master/examples/declarative-linking
+1. https://stackoverflow.com/questions/45578563/api-pagination-in-dropwizard

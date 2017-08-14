@@ -1,4 +1,4 @@
-# DropWizard Pagination using Jersey Declarative Hyperlinking feature
+# DropWizard Pagination using Jersey Declarative Hyperlinking
 
 Implemented DropWizard Pagination using [Jersey Declarative Hyperlinking](https://jersey.github.io/documentation/latest/declarative-linking.html).
 
@@ -8,6 +8,10 @@ Supports content negotiation using Accept headers. Uses Eclipse MOXy to support 
 
 
 ![Screenshot](src/main/resources/screenshot.png?raw=true "Pagination")
+
+Response showing link header with the next set of data to retrieve.
+
+![Link Header](src/main/resources/link-header.png?raw=true "Link Header")
 
 How to start the Pagination application
 ---
